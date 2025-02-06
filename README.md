@@ -41,9 +41,12 @@ This repository takes credit from [GNNSafe](https://github.com/qitianwu/GraphOOD
 
 ## Reference 
 The bib ref for our paper is as follow:
+
+```bibtex
 @inproceedings{gold,
   title = {GOLD: Graph Out-of-Distribution Detection via Implicit Adversarial Latent Generation},
   author = {Danny Wang and Ruihong Qiu and Guangdong Bai and Zi Huang},
   booktitle = {International Conference on Learning Representations (ICLR)},
   year = {2025}
   }
+```
