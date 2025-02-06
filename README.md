@@ -1,6 +1,6 @@
 # GOLD
 
-This repository contains the implementation of GOLD: Graph Out-of-Distribution Detection via Implicit Adversarial Latent Generation.
+This repository contains the implementation for the ICLR25 paper "GOLD: Graph Out-of-Distribution Detection via Implicit Adversarial Latent Generation".
 
 ## Intro
 
@@ -18,6 +18,7 @@ Despite graph neural networks' (GNNs) great success in modelling graph-structure
 - torch_sparse 0.6.18
   
 ## Usage
+The dataset and splits utilised are downloaded automatically when running the training scripts.
 To execute the code, ``` cd ``` into the gold folder and run the ``` run_gold.sh ``` file.
 ```shell
 cd gold
@@ -38,3 +39,11 @@ python gold.py --backbone gcn --dataset cora --ood_type structure --mode detect 
 
 This repository takes credit from [GNNSafe](https://github.com/qitianwu/GraphOOD-GNNSafe/tree/main) for the energy-based detector backbone and [Neural Graph Generator](https://github.com/iakovosevdaimon/Neural-Graph-Generator/tree/main) for the diffusion process.
 
+## Reference 
+The bib ref for our paper is as follow:
+@inproceedings{gold,
+  title = {GOLD: Graph Out-of-Distribution Detection via Implicit Adversarial Latent Generation},
+  author = {Danny Wang and Ruihong Qiu and Guangdong Bai and Zi Huang},
+  booktitle = {International Conference on Learning Representations (ICLR)},
+  year = {2025}
+  }
