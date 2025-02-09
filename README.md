@@ -18,7 +18,8 @@ Despite graph neural networks' (GNNs) great success in modelling graph-structure
 - torch_sparse 0.6.18
   
 ## Usage
-The dataset and splits utilised are downloaded automatically when running the training scripts.
+The dataset and splits utilised are downloaded automatically when running the training scripts. Alternatively, the datasets can be downloaded via running the ```load_dataset``` function in the ```gold/dataset.py``` file.
+
 To execute the code, ``` cd ``` into the gold folder and run the ``` run_gold.sh ``` file.
 ```shell
 cd gold
