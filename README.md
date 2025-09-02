@@ -1,6 +1,6 @@
 # GOLD
 
-This repository contains the implementation for the ICLR25 paper "GOLD: Graph Out-of-Distribution Detection via Implicit Adversarial Latent Generation".
+This repository contains the implementation for the ICLR25 paper ["GOLD: Graph Out-of-Distribution Detection via Implicit Adversarial Latent Generation"](https://arxiv.org/abs/2502.05780).
 
 ## Intro
 
